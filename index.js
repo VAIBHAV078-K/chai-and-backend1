@@ -1,30 +1,40 @@
-// const express = require(`express`);
-import express from 'express';
-const app = express();
+// // const express = require(`express`);
+// import express from 'express';
+// const app = express();
   
-const port = 4000;
+// const port = 4000;
 
-app.listen(port ,()=>{
-  console.log(`server is live working on the ${port}` );
+// app.listen(port ,()=>{
+//   console.log(`server is live working on the ${port}` );
   
-});
-app.get( `/`, (req,res)=>{
+// });
+// app.get( `/`, (req,res)=>{
  
-   res.send("hello world !")
+//    res.send("hello world !")
   
-});
-app.get( `/twitter`, (req,res)=>{
+// });
+// app.get( `/twitter`, (req,res)=>{
  
-   res.send("hii ! i am a vaibhav patel !")
+//    res.send("hii ! i am a vaibhav patel !")
   
-});
-app.get( `/login`, (req,res)=>{
+// });
+// app.get( `/login`, (req,res)=>{
  
-   res.send(`<h1>i am abeginner backend devloper in nit</h1>`)
+//    res.send(`<h1>i am abeginner backend devloper in nit</h1>`)
   
-});
-app.get( `/facebook`, (req,res)=>{
+// });
+// app.get( `/facebook`, (req,res)=>{
  
-   res.send(`<button>Kanha patel</button>`)
+//    res.send(`<button>Kanha patel</button>`)
   
-});
+// });
+// app.get( `/search`, (req,res)=>{
+ 
+//    let {q}=console.log(req.query);
+//    res.send(`q`);
+   
+  
+// });
+
+
+// const express = require(`express`);
